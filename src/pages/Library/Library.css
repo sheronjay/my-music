@@ -1,0 +1,9 @@
+.cards {
+  width: 160px;
+  height: 160px;         /* like an album cover */
+  background: #20242f;
+  border: 1px solid #2a2f3a;
+  border-radius: 12px;
+  margin: 12px;
+}
+

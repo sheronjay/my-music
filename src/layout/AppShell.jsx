@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Sidebar from "../components/Sidebar";
+import PlayerBar from "../components/PlayerBar";
 
 
 export default function AppShell(){
@@ -31,15 +32,7 @@ export default function AppShell(){
       </div>
       
       {/* Player bar at bottom */}
-      <footer style={{
-        background: '#222', 
-        color: 'white', 
-        height: '50px',
-        padding: '1rem',
-        flexShrink: 0 // Prevents shrinking
-      }}>
-        Player Bar
-      </footer>
+      <PlayerBar />
     </div>
   );
 }
