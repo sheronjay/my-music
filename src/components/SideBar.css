@@ -1,0 +1,28 @@
+.sidebar {
+    width: 260px;
+    height: 100vh;
+    background: #171a21;
+    color: white;
+    padding: 1rem;
+    flex-shrink: 0;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+nav a:hover {
+  background-color: #2a2e38;
+}
+
+nav a.active {
+  background-color: #39414f;
+  color: #1db954; 
+}
