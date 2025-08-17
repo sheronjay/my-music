@@ -4,7 +4,9 @@ import Left from "../assets/Left.png";
 import Play from "../assets/Play.png";
 import Right from "../assets/Right.png";
 import Shuffle from "../assets/Shuffle.png";
-
+import Device from "../assets/Device.png";
+import Speaker from "../assets/Speaker.png";
+import "./PlayerBar.css";
 
 export default function PlayerBar() {
   return (
@@ -41,8 +43,8 @@ export default function PlayerBar() {
 
 
       <div className="right">
-        <button>🖥️</button>
-        <button>🔊</button>
+        <button><img src={Device} alt='Device' className="control" /></button>
+        <button><img src={Speaker} alt='Speaker' className="control" /></button>
         <input type="range" className="volume" />
       </div>
     </footer>
