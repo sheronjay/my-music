@@ -1,4 +1,10 @@
 import albumcover from "../assets/left-control-album-cover.jpeg";
+import Repeat from "../assets/Repeat.png";
+import Left from "../assets/Left.png";
+import Play from "../assets/Play.png";
+import Right from "../assets/Right.png";
+import Shuffle from "../assets/Shuffle.png";
+
 
 export default function PlayerBar() {
   return (
@@ -17,11 +23,11 @@ export default function PlayerBar() {
 
       <div className="center">
         <div className="controls">
-          <button>🔁</button>
-          <button>⏮️</button>
-          <button className="play">▶️</button>
-          <button>⏭️</button>
-          <button>🔀</button>
+          <button><img src={Shuffle} alt='Shuffle' className="control" /></button>
+          <button><img src={Left} alt='Left' className="control" /></button>
+          <button><img src={Play} alt='Play' className="control" /></button>
+          <button><img src={Right} alt='Right' className="control" /></button>
+          <button><img src={Repeat} alt='Repeat' className="control" /></button>
         </div>
 
         <div className="progress-bar">
