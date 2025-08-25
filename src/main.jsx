@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import AppShell from './layout/AppShell.jsx';
 import Library from './pages/Library/Library.jsx';
 import NowPlaying from './pages/NowPlaying/NowPlaying.jsx';
+import CardTest from "./pages/CardTest";
 import './index.css';
 
 const router = createBrowserRouter([
@@ -12,7 +13,8 @@ const router = createBrowserRouter([
     element: <AppShell />,
     children: [
       { index: true, element: <Library /> },
-      { path: "now-playing", element: <NowPlaying /> }
+      { path: "now-playing", element: <NowPlaying /> },
+      { path: "test-card", element: <CardTest /> } //test
     ]
   }
 ]);
