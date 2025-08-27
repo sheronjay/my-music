@@ -6,8 +6,8 @@ export default function Card(){
         <div className="card">
             <img src={album} alt="Album Cover" className="card-image" />
             <div className="card-content">
-                <h3 className="card-title">Album Title</h3>
-                <h3 className="card-artist">Artist Name</h3>
+                <h3 className="card-title">Goodbye & Good Riddance</h3>
+                <h3 className="card-artist">Juice WRLD</h3>
             </div>
 
         </div>
